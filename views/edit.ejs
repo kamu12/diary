@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Create note
+	    </title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="views\Css\Note.css">
+		<script src="app\Scripts\edit.js"></script>
+		<style>
+		
+		</style>
+	</head>
+	<body onresize="resizeTextArea()">
+			<div id="divWithArea">
+				<h1 align ="center">Edite note</h1>
+				<div align="center">
+					<textarea id="inputtextarea" rows="10" cols="80" id ="noteArea">
+					</textarea>
+				</div>
+				<div align="center">
+					<button type="button" class="btn btn-success" id="SaveBtn">Save</button>
+					<button type="button" class="btn btn-default" id="DiscardBtn">Discard</button>
+				</div>
+			</div>
+		
+	</body>
+</html>
