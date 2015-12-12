@@ -1,0 +1,12 @@
+textarea{
+	resize: vertical;
+
+}
+#divWithArea{
+	padding: 2px;
+	background-color: lightgrey;
+	border: 3px solid darkgrey;
+	border-radius: 20px;
+	width:45%;			
+	margin: auto;
+}	
