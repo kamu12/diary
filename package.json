@@ -1,8 +1,12 @@
 {
   "name": "diary",
   "main": "server.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "dependencies" : {
     "express" : "~4.0.0",
+    "bower" : "*",
     "ejs" : "~0.8.5",
     "mongoose" : "~3.8.1",
     "passport" : "~0.1.17",

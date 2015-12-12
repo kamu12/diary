@@ -1,0 +1,43 @@
+.notesContainer {
+	align-content: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 30px;
+	overflow: hidden;
+}
+	.notesContainer .single-note {
+		float: left;
+		position: relative;
+		margin: 5px;
+		width: 270px;
+		height: 130px;
+		border-radius: 10px;
+	}
+	.notesContainer .single-note:hover {
+		background-color: azure;
+	}
+		.notesContainer .single-note .header {
+			text-align: center;
+			font-size: 14px;
+		}
+		.notesContainer .single-note .content {
+			font-size: 14px;
+		}
+		.notesContainer .single-note .single-note-edit {
+			display: block;
+			position: absolute;
+			margin: 0 auto;
+			text-align: center;
+			left: 30%;
+			width: 40%;
+			bottom: 0;
+		}
+.addButton {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+	.addButton button {
+		height:50px;
+		width:200px;
+	}

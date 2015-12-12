@@ -1,0 +1,12 @@
+{
+  "name": "itClaster",
+  "version": "1.0.0",
+  "authors": [
+    "Andriy_Medytsky"
+  ],
+  "main": "app/roues.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "*"
+  }
+}

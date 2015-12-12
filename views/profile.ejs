@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+			Diary
+		</title>
+		<link rel="stylesheet" href="app\libs\bootstrap\dist\css\bootstrap.min.css">
+		<link rel="stylesheet" href="views\Css\Notes.css"
+	</head>
+	<body>
+		<h1 align="center">Last Notes</h1>
+		<div id="notesList" class="notesContainer">
+		</div>
+		<div class="addButton" align="center">
+			<a class="btn btn-success" href="/createnote?email=<%- user.local.email %>">Add Note</a>
+		</div>
+		<script src="app\libs\jquery\dist\jquery.min.js"></script>
+		<script src="app\libs\bootstrap\dist\js\bootstrap.min.js"></script>
+		<script>
+			loggedUserEmail = '<%- user.local.email %>'
+		</script>
+		<script src="app\Scripts\notes.js"></script>
+	</body>
+</html>
